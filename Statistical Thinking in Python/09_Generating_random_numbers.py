@@ -12,7 +12,7 @@ import random
 sns.set()
 
 # Seed the random number generator
-random.seed(42)
+np.random.seed(42)
 
 # Initialize random numbers: random_numbers
 random_numbers = np.empty(100000)
